@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <div>
+            Name:<input type="text" id="txt1" name="txt1"><br><br>
+            Age:<input type="number" id="age" name="age"><br><br>
+            <input type="hidden" id="flag" name="flag">
+        
+            <button onclick="check_age()">Click</button>
+        </div>
+      <script>
+      function check_age()
+     {
+       let nm=document.getElementById("txt1").value;
+       let age=document.getElementById("age").value;
+       let flg=document.getElementById("flag").value;
+       if(flg==0)
+       {
+        if(age<18){
+            alert("Not eligible"+"\n"+"Name:"+nm+"\n"+"Age:"+age);
+        }
+        else
+        {
+            alert("Eligible to vote"+"\n"+"Name:"+nm+"\n"+"Age:"+age);
+            ag=document.getElementById("age").readOnly="true";
+            flg=document.getElementById("flag").value=1;
+        }
+    }
+      else{
+        alert("Cannot change the value");
+      }
+    }
+     
+    </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+img{
+    width:150px;
+}
+body{
+    background-color: black;
+}
+.container{
+   text-align: center;
+}
+.b1{
+    border: 10px solid gray;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 620px;
+    border-radius: 10px;
+}
+#c1{
+    color:white;
+}
+#bt1{
+    width:30px;
+    border-radius: 10px;
+}
+#bt2{
+    width:30px;
+    border-radius: 10px;
+}
+    

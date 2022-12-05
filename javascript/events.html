@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Events</title>
+    </head>
+    <body>
+        <!--mouse events-->
+        <button onclick="sample()">click</button>
+        <button ondblclick="sample()">dblclick</button>
+        <button onmouseover="sample()">over</button>
+        <button onmouseout="sample()">out</button>
+        <button oncontextmenu="sample()">context</button><br><br>
+
+        <!--keyboard events-->
+        <input type="text" value="" id="inp1" onkeyup="board()"/>
+        <input type="text" value="" id="inp1" onkeypress="board()"/>
+        <input type="text" value="" id="inp1" onkeydown="board()"/><br><br>
+
+        <!--form events-->
+        <input type="text" onfocus="fom(this)"/>
+        <input type="text" onblur="fomm()"/>
+        <input type="text" onchange="fom(this)"/>
+        <select onchange="fom(this)">
+            <option>Html</option>
+            <option>css</option>
+            <option>js</option>
+            </select>
+   
+<script src="./js/events.js"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+.c1{
+    position: absolute;
+    border:5px solid black;
+    height:290px;
+    width:110px;
+    background-color:black;
+    border-radius: 50px;
+    margin-left: 250px;
+}
+
+.b1{
+    position:static;
+    border-radius: 40px;
+    background-color:darkgrey;
+    height:60px;
+    width:60px;
+    margin-top: 18px;
+    margin-left: 23px;
+}
+
+.s1{
+    font-size:xx-large;
+}
+
+.b2{
+   position:absolute;
+   height: 40px;
+   width:80px;
+   margin-left: 150px;
+   margin-top:65px;
+   border-radius:12px;
+}
+
+.c4
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.container{
+    height: 600px;
+    width:600px;
+    background-color:lightseagreen;
+    border:5px solid black;
+}
